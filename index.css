@@ -1,0 +1,152 @@
+body{
+    background-color: #a9e4f8;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.company {
+    background-image: url(https://reallygooddesigns.com/wp-content/uploads/2019/12/teamery-1.jpg);
+    background-size: cover; /* Cover the entire div */
+    margin-left: 120px;
+    margin-top: 20px;
+    height: 70px;
+    width: 100px;
+    border-radius: 30%;
+}
+
+#Superpowers{
+    font-size: 5em;
+    color: #f33207;
+}
+.container {
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; /* This will make the container take up the full height of the viewport */
+}
+.input{
+    margin-left: 23%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    height: 40px;
+    width: 555px;
+    border: 2px solid none;
+}
+.input:hover{
+    border: 2px solid skyblue;
+}
+.btn{
+    border: 2px solid black;
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+}
+.box {
+    overflow-y: auto; /* Enable vertical scrolling when necessary */
+    background-color: wheat;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid none; */
+    border-radius: 3%;
+}
+
+/* Hide scrollbar */
+.box::-webkit-scrollbar {
+    width: 0; /* Make scrollbar invisible */
+}
+
+.box:hover{
+    border: 1px solid black;
+}
+.boxes {
+    margin-top: 5px;
+    display: inline-block;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    width: 550px;
+    min-height: 100px; /* Use min-height to maintain fixed height */
+    border-radius: 5%;
+    padding-left: 10px;
+}
+/* Add margin to all direct children of .boxes except the first one */
+.boxes > *:not(:first-child) {
+    margin-left: 10px; /* Adjust margin as needed */
+}
+.boxes:hover{
+    border: 1px solid black;
+}
+.logo{
+    background-image: url(https://images-platform.99static.com//dBiWCJwt1gy60gu-S4vO890Es1w=/247x229:1659x1641/fit-in/500x500/99designs-contests-attachments/150/150191/attachment_150191892);
+    background-size: cover; /* Cover the entire div */
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.copy-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    /*border: 1px solid black;*/
+}
+.copy-button img {
+    width: 20px; /* Adjust the width and height as needed */
+    height: 20px;
+}
+.copy-button img:hover{
+    width: 21px;
+    height: 21px;
+}
+.qr-button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.qr-button img{
+    width: 20px; /* Adjust the width and height as needed */
+    height: 20px;
+}
+.qr-button img:hover{
+    width: 21px;
+    height: 21px;
+}
+.clicks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(230, 230, 222);
+    height: 25px;
+    width: 125px;
+    border-radius: 8px;
+}
+.clicks img {
+    margin-right: 15px;
+    width: 15px;
+    height: 15px;
+}
+.option{
+    height: 40px;
+    width: 25px;
+    border-radius: 10px;
+    background-image: url(https://cdn0.iconfinder.com/data/icons/round-action-bar/48/more-64.png);
+    background-size: cover; /* Cover the entire div */
+    background-color: white;
+    border:none;
+}
+.option:hover{
+    height: 42px;
+    width: 27px;
+}
+.summary{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
